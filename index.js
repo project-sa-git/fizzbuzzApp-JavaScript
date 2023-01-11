@@ -13,8 +13,8 @@ function calculateFizzbuzz() {
 
   // 整数を判定
   if (
-    fizzNumForm === "" ||
-    buzzNumForm === "" ||
+    !fizzNumForm ||
+    !buzzNumForm ||
     !Number.isInteger(Number(fizzNumForm)) ||
     !Number.isInteger(Number(buzzNumForm))
   ) {
