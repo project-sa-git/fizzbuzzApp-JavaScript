@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FizzBuzzApp</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <h1>FizzBuzz問題</h1>
+    <br />
+    <form>
+      <label>FizzNum: </label>
+      <input
+        type="text"
+        id="fizzNumForm"
+        placeholder="整数値を入力してください"
+      />
+      <br />
+      <label>BuzzNum: </label>
+      <input
+        type="text"
+        id="buzzNumForm"
+        placeholder="整数値を入力してください"
+      />
+    </form>
+    <button type="button" onclick="calculateFizzbuzz()">実行</button>
+    <br /><br />
+    【出力】
+    <br />
+    <ul id="list"></ul>
+  </body>
+</html>
